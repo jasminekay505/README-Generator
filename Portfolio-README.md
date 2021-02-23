@@ -1,9 +1,9 @@
 
 # Portfolio
-[license-shield]: https://img.shields.io/github/license/jasminekay505/Portfolio.svg?style=flat-square  
+![License](https://img.shields.io/badge/license-GPL-blue.svg)
 
 ## Description
-This is my personal portfolio page. 
+hahaha
 
 ## Table of Contents
 [Description](#Description)  
@@ -15,23 +15,23 @@ This is my personal portfolio page.
 [Questions](#Questions) 
 
 ## Installation
-Open in browser. 
+asjd;lkfj
 
 ## Usage
-Click around and learn more about me. 
+a;slkdjfas
 
 ## License 
-MIT
+GPL
 
 
 ## Contributing
-Anyone can contribute. 
+as;lkdjf
 
 ## Tests
-None. 
+;alskdf
 
 ## Questions
 If you have any additional questions please take a look at my GitHub profile or send me an email.  
-Link to GitHub profile: github.com/jasminekay505  
-Email me: jamsinekay505@gmail.com  
+Link to GitHub profile: github.com/jasminekay505@gmail.com  
+Email me: as;dfj  
 

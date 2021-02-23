@@ -58,7 +58,7 @@ function writeToFile(response) {
     console.log(response);
     return `
 # ${response.title}
-[license-shield]: https://img.shields.io/github/license/${response.username}/${response.title}.svg?style=flat-square  
+![License](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
 ## Description
 ${response.description}
