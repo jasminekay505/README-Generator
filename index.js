@@ -56,41 +56,42 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(response) { 
     console.log(response);
-    return `# ${response.title}
-    // license badge
-    
-    ## Description
-    ${response.description}
-    
-    ## Table of Contents
-    [Description](#Description)
-    [Installation](#Installation)
-    [Usage](#Usage)
-    [License](#License)
-    [Contributing](#Contribution)
-    [Tests](#Tests)
-    [Questions](#Questions)
+    return `
+# ${response.title}
 
-    ## Installation
-    ${response.installation}
+## Description
+${response.description}
 
-    ## Usage
-    ${response.usage}
+## Table of Contents
+[Description](#Description)  
+[Installation](#Installation)  
+[Usage](#Usage)  
+[License](#License)  
+[Contributing](#Contribution)  
+[Tests](#Tests)  
+[Questions](#Questions) 
 
-    ## License 
-    ${response.license}
+## Installation
+${response.installation}
 
-    ## Contributing
-    ${response.contribution}
+## Usage
+${response.usage}
 
-    ## Tests
-    ${response.test}
+## License 
+${response.license}
 
-    ## Questions
-    If you have any additional questions please take a look at my GitHub profile or send me an email.
-    Link to GitHub profile: github.com/${response.username}
-    Email me: ${response.email}
-    `;
+## Contributing
+${response.contribution}
+
+## Tests
+${response.test}
+
+## Questions
+If you have any additional questions please take a look at my GitHub profile or send me an email.  
+Link to GitHub profile: github.com/${response.username}  
+Email me: ${response.email}  
+
+`;
 }
 
 // TODO: Create a function to initialize app
