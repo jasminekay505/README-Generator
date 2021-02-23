@@ -61,7 +61,26 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(response) { 
     console.log(response);
-    return `Hi`;
+    return `# ${response.title}
+    // license badge
+    
+    ## Description
+    ${response.description}
+    
+    ## Table of Contents
+    
+    ## Installation
+    ${response.installation}
+    ## Usage
+     
+    ## License 
+    
+    ## Contributing
+    
+    ## Tests
+    
+    ## Questions?
+    `;
 }
 
 // TODO: Create a function to initialize app
