@@ -47,11 +47,6 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please provide a link to your GitHub profile.',
-        name: 'profile'
-    },
-    {
-        type: 'input',
         message: 'What is your email address?',
         name: 'email'
     },
@@ -71,22 +66,30 @@ function writeToFile(response) {
     
     ## Installation
     ${response.installation}
+
     ## Usage
-     
+    ${response.usage}
+
     ## License 
-    
+    ${response.license}
+
     ## Contributing
-    
+    ${response.contribution}
+
     ## Tests
-    
-    ## Questions?
+    ${response.test}
+
+    ## Questions
+    If you have any additional questions please take a look at my GitHub profile or send me an email.
+    Link to GitHub profile: github.com/${response.username}
+    Email me: ${response.email}
     `;
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((response) => { 
-        fs.writeFileSync('newREADME.md', writeToFile(response), (err) => { 
+        fs.writeFileSync(`${response.username}ReadME`, writeToFile(response), (err) => { 
             err ? console.error(err) : console.log('Success!')
         })
     })
