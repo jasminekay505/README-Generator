@@ -90,7 +90,7 @@ ${response.test}
 
 ## Questions
 If you have any additional questions please take a look at my GitHub profile or send me an email.  
-Link to GitHub profile: github.com/${response.username}  
+Link to GitHub profile: https://github.com/${response.username}  
 Email me: ${response.email}  
 
 `;
