@@ -15,8 +15,8 @@ Run command *npm install* from terminal
 # Usage
     1. Clone repository
     2. Open in terminal
-    3. Install dependencies with *npm i*
-    4. Run application with *node index.js*
+    3. Install dependencies with npm i
+    4. Run application with node index.js
 
 # Technologies Used  
     - Javascript  
