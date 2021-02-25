@@ -55,7 +55,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(response) { 
-    console.log(response);
+    console.log(`Success! Your new README file has been created. It is called: ${response.title}-README.md`);
     return `
 # ${response.title}
 ![License](https://img.shields.io/badge/license-${response.license}-blue.svg)
@@ -68,7 +68,7 @@ ${response.description}
 [Installation](#Installation)  
 [Usage](#Usage)  
 [License](#License)  
-[Contributing](#Contribution)  
+[Contributing](#Contributing)  
 [Tests](#Tests)  
 [Questions](#Questions) 
 
