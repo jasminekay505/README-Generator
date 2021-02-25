@@ -27,7 +27,7 @@ Run command *npm install* from terminal
 In the command-line:  
 ![image](https://user-images.githubusercontent.com/74380703/109218044-726ec480-776b-11eb-9954-2bcf6e04ac71.png)  
 Sample README.md:  
-![image](https://user-images.githubusercontent.com/74380703/109218734-a5b15380-776b-11eb-90ad-50942f18a1c6.png)  
+![image](https://user-images.githubusercontent.com/74380703/109227193-ca5df900-7774-11eb-80a5-168d307078fa.png)  
 
 # License
 MIT 
